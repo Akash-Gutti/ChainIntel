@@ -78,3 +78,5 @@ __marimo__/
 *.tmp
 *.bak
 *.swp
+
+.flake8

@@ -1,1 +1,1 @@
-"ChainIntel" 
+ChainIntel 
