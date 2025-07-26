@@ -1,0 +1,15 @@
+pandas 
+numpy 
+scikit-learn 
+xgboost 
+lightgbm 
+shap 
+matplotlib 
+seaborn 
+openai 
+jinja2 
+streamlit 
+flake8 
+python-dotenv 
+fastapi 
+uvicorn 

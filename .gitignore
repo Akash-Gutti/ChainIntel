@@ -1,0 +1,80 @@
+# --- Python Artifacts ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+*.log
+
+# --- Virtual Environments ---
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter & IPython ---
+.ipynb_checkpoints/
+profile_default/
+.ipython_config.py
+
+# --- IDEs ---
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# --- Tests, Coverage, and Static Analysis ---
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# --- Documentation ---
+docs/_build/
+site/
+
+# --- Packaging ---
+MANIFEST
+*.lock
+.pdm-python
+.pdm-build/
+.pixie
+.pypirc
+
+# --- Application Specific ---
+data/raw/
+data/processed/*.csv
+outputs/*
+models/*
+.streamlit/secrets.toml
+.marimo/
+__marimo__/
+
+# --- Abstra / Cursor (if used) ---
+.abstra/
+.cursorignore
+.cursorindexingignore
+
+# --- Logs / Temp ---
+*.log
+*.tmp
+*.bak
+*.swp
