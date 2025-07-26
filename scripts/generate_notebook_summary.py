@@ -6,7 +6,7 @@ from pathlib import Path
 import nbformat as nbf
 
 NOTEBOOK_PATH = Path("notebooks/08_wallet_risk_summary.ipynb")
-SCREENSHOT_PATH = "docs/screenshots"
+SCREENSHOT_PATH = Path("docs/screenshots")
 
 nb = nbf.v4.new_notebook()
 
@@ -62,10 +62,6 @@ cells.append(nbf.v4.new_code_cell(
 "Image(filename=f'{SCREENSHOT_PATH}/anomaly_score_dist.png')"
 ))
 
-cells.append(nbf.v4.new_markdown_cell("### 🔹 Top Risk Factors"))
-cells.append(nbf.v4.new_code_cell(
-"Image(filename=f'{SCREENSHOT_PATH}/top_features_barplot.png')"
-))
 
 # 📌 How to Extend
 cells.append(nbf.v4.new_markdown_cell(
@@ -73,7 +69,6 @@ cells.append(nbf.v4.new_markdown_cell(
 "- Deploy real-time wallet scoring APIs\n"
 "- Integrate alerts with Telegram/Discord\n"
 "- Add analyst feedback and audit trails\n"
-"- Export reports to PDF / dashboard view\n"
 ))
 
 # Save notebook
