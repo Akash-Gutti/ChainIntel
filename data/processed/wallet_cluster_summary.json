@@ -1,0 +1,10 @@
+{
+  "kmeans": {
+    "n_clusters": 4,
+    "silhouette_score": 0.23164651477306036
+  },
+  "dbscan": {
+    "n_clusters": 1,
+    "noise_points": 7
+  }
+}
