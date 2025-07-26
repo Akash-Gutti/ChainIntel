@@ -1,0 +1,5 @@
+{
+  "n_clusters": 8,
+  "silhouette_score": 0.6351357656858946,
+  "wallets_clustered": 48059
+}

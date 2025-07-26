@@ -57,7 +57,7 @@ def save_summary(kmeans_labels, dbscan_labels, X_scaled):
     print("Cluster summary saved:", OUTPUT_JSON)
 
 def generate_visuals(X_scaled, kmeans_labels, features):
-    sns.set(style="whitegrid")
+    sns.set_theme(style="whitegrid")
     corr_matrix = pd.DataFrame(X_scaled, columns=features).corr()
 
     plt.figure(figsize=(8, 6))
