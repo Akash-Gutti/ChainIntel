@@ -1,0 +1,394 @@
+{
+  "0x0e2a06ed8bf40006b3407f57094153f56b78557c": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.00090011,
+      "gas_price_avg": 1200000000.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.00090011,
+      "contract_interaction_rate": 0.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0x4976a4a02f38326660d17bf34b431dc6e2eb2327": {
+    "features": {
+      "tx_count": 122.0,
+      "unique_to_count": 120.0,
+      "eth_sent_total": 78.64291111,
+      "gas_price_avg": 3287794602.139344,
+      "gas_price_std": 136521851.48726043,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.6446140254918032,
+      "contract_interaction_rate": 0.0,
+      "active_days": 1.0,
+      "tx_velocity": 122.0,
+      "tx_entropy": 6.897950452316983
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0x56e7e82fc06e1e7bc1dceb96ff58e52f9b145337": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.002,
+      "gas_price_avg": 2128052498.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.002,
+      "contract_interaction_rate": 1.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0x5f735a5cd685c61e2e9a7c48024b7b5f3fa06a0b": {
+    "features": {
+      "tx_count": 2.0,
+      "unique_to_count": 2.0,
+      "eth_sent_total": 0.01,
+      "gas_price_avg": 5335077008.0,
+      "gas_price_std": 3895267692.6362944,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.005,
+      "contract_interaction_rate": 0.5,
+      "active_days": 1.0,
+      "tx_velocity": 2.0,
+      "tx_entropy": 1.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0x7d41e69ae0df9a4ad27b76dae6cbcb078f78cca5": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.001382901,
+      "gas_price_avg": 1855388465.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.001382901,
+      "contract_interaction_rate": 0.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0x7eef28976548c33bac91c423501f189cf55a34a8": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.500595741,
+      "gas_price_avg": 5976100609.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.500595741,
+      "contract_interaction_rate": 0.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0x8e3e5eec92c401d26b9e5eb17cba828772736558": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.0,
+      "gas_price_avg": 1416406187.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.0,
+      "contract_interaction_rate": 1.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0xa1b21bbcfbc9bba21bfbb58f7f59115b99a3a594": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.0,
+      "gas_price_avg": 2258832524.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.0,
+      "contract_interaction_rate": 1.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0xad621cd8f0c4b283db2fa1b92f79219a8b6a281d": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.0,
+      "gas_price_avg": 1312440520.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.0,
+      "contract_interaction_rate": 1.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0xb32180bce0b0dd40d31fccf9ea313e3e94f5ed07": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.0,
+      "gas_price_avg": 5985521992.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.0,
+      "contract_interaction_rate": 1.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0xba7ac931d8dcb64182df646c353c0673168484a6": {
+    "features": {
+      "tx_count": 2.0,
+      "unique_to_count": 2.0,
+      "eth_sent_total": 0.0,
+      "gas_price_avg": 2166172397.5,
+      "gas_price_std": 292679945.95204043,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.0,
+      "contract_interaction_rate": 1.0,
+      "active_days": 1.0,
+      "tx_velocity": 2.0,
+      "tx_entropy": 1.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0xc829700218ca0526eee697f48602aa474a162f92": {
+    "features": {
+      "tx_count": 8.0,
+      "unique_to_count": 6.0,
+      "eth_sent_total": 0.0173,
+      "gas_price_avg": 3398822953.5,
+      "gas_price_std": 162453393.7352848,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.0021625,
+      "contract_interaction_rate": 0.875,
+      "active_days": 1.0,
+      "tx_velocity": 8.0,
+      "tx_entropy": 2.4056390622295667
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0xde9ae6603b12b32dd9e58cf8946a3980ffa92f90": {
+    "features": {
+      "tx_count": 3.0,
+      "unique_to_count": 2.0,
+      "eth_sent_total": 0.03,
+      "gas_price_avg": 3515172408.6666665,
+      "gas_price_std": 1164309841.5437052,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.01,
+      "contract_interaction_rate": 0.6666666666666666,
+      "active_days": 1.0,
+      "tx_velocity": 3.0,
+      "tx_entropy": 0.9182958340544894
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "0xfeac37ccc4afbc8ae635b510be41d2eac8e171ed": {
+    "features": {
+      "tx_count": 1.0,
+      "unique_to_count": 1.0,
+      "eth_sent_total": 0.0,
+      "gas_price_avg": 7700000000.0,
+      "gas_price_std": 0.0,
+      "self_tx_count": 0.0,
+      "avg_eth_per_tx": 0.0,
+      "contract_interaction_rate": 1.0,
+      "active_days": 1.0,
+      "tx_velocity": 1.0,
+      "tx_entropy": 0.0
+    },
+    "shap_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}
