@@ -1,7 +1,10 @@
 services:
   - type: web
-    name: chainintel-dashboard
+    name: chainintel
     env: python
+    plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    autoDeploy: true
+    startCommand: python app/app.py
+    envVars:
+      - key: PORT
+        value: 7860

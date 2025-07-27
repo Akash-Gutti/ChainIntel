@@ -216,4 +216,9 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue")) as app:
         pdf_file = gr.File()
         pdf_btn.click(generate_pdf, inputs=pdf_input, outputs=pdf_file)
 
-app.launch()
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 7860))
+    app.launch(server_name="0.0.0.0", server_port=port)
+
+
