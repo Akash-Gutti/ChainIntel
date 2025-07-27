@@ -13,3 +13,6 @@ flake8
 python-dotenv 
 fastapi 
 uvicorn 
+dash
+plotly
+gunicorn
