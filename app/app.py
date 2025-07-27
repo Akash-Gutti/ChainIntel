@@ -9,7 +9,6 @@ from fpdf import FPDF
 # === Load Data ===
 CSV_PATH = Path("data/processed/demo_wallets.csv")
 SUMMARY_PATH = Path("data/processed/wallet_summaries.json")
-TX_PATH = Path("data/raw/transactions_6months.csv")
 
 # === Load DataFrames ===
 df = pd.read_csv(CSV_PATH)
@@ -126,16 +125,6 @@ def get_cluster_wallets(cluster_id):
         out.append(f"{row.wallet} ({risk})")
     return "\n".join(out)
 
-# === Timeline View ===
-tx_df = pd.read_csv(TX_PATH)
-tx_df["block_timestamp"] = pd.to_datetime(tx_df["block_timestamp"], errors='coerce')
-def get_timeline(wallet):
-    subset = tx_df[tx_df.from_address == wallet]
-    if subset.empty:
-        return px.line(title="No transactions found for this wallet.")
-    daily = subset.groupby(subset.block_timestamp.dt.date).size().reset_index(name='tx_count')
-    return px.line(daily, x='block_timestamp', y='tx_count', title=f"Transaction Timeline for {wallet}")
-
 # === Export Tools ===
 def export_cluster(cluster_id):
     sub = df[df.cluster_id == int(cluster_id)]
@@ -211,11 +200,6 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue")) as app:
         summary_card = gr.Markdown()
         summary_json = gr.Code(label="🧠 GPT JSON", language="json")
         dropdown2.change(get_summary_card, dropdown2, outputs=[summary_card, summary_json])
-
-    with gr.Tab("📈 Wallet Timeline"):
-        time_select = gr.Textbox(label="Wallet Address")
-        time_plot = gr.Plot()
-        time_select.change(get_timeline, inputs=time_select, outputs=time_plot)
 
     with gr.Tab("📤 Export & Reports"):
         clust_input = gr.Number(label="Export Cluster")
