@@ -16,7 +16,7 @@ Major Web3 attacks like Euler (\$197M), Ronin (\$620M), and Nomad (\$190M) prove
 
 ## 🛠️ Features
 
-* Risk analysis of 800+ Ethereum wallets
+* Risk analysis of 800 Ethereum wallets
 * Upload wallet tx data → get risk scores + clusters
 * XGBoost model with 10+ wallet behavior features
 * Anomaly detection via Isolation Forest
@@ -66,7 +66,7 @@ Major Web3 attacks like Euler (\$197M), Ronin (\$620M), and Nomad (\$190M) prove
 
 ## 🔍 Project Scope
 
-* 800+ wallets processed
+* 800 wallets processed
 * 300 GPT summaries
 * 6-month Ethereum activity window
 * Full clustering, anomaly scores, tags
